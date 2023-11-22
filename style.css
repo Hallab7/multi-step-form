@@ -94,20 +94,6 @@ ul {
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* .navbar li:hover {
-  color: var(--color-light);
-}
-.navbar li::before {
-  content: "";
-  background: linear-gradient(100deg, violet, red);
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0%;
-  z-index: -1;
-} */
-
 .navbar li:hover::before {
   width: 100%;
 }
@@ -453,12 +439,6 @@ color: hsl(213, 96%, 18%);
 .display-type {
   display: block;
 }
-/* .final {
-  
-  display: none;
-} */
-
-
 
 .main-container5 {
   width: 100%;
@@ -522,15 +502,9 @@ color: hsl(213, 96%, 18%);
 .navbar nav ul {
 width: 100%;
 display: flex;
-/* align-items: center; */
-/* align-content: center;
-text-align: center; */
 justify-content: center;
 }
 
-/* .navbar nav ul li {
-  display: inline;
-} */
 .step {
   width: 33px;
   height: 33px;
@@ -813,7 +787,7 @@ button {
   height: auto;
   float: left;
   display: block;
-  /* padding-top: 10px; */
+  padding-top: 10px;
  
 }
 .main-container3 li .input input {
@@ -843,7 +817,6 @@ button {
 }
 
 .duration-type {
-  width: 80%;
   float: left;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -866,11 +839,9 @@ button {
 text-align: right;
 font-weight: bold;
 color: hsl(213, 96%, 18%);
-float: left;
 
 }
 .addon-type {
-  width: 80%;
   float: left;
   
 }
@@ -890,7 +861,6 @@ float: left;
   font-size: 0.8rem;
 }
 .total-text {
-  width: 70%;
   float: left;
   font-size: 0.8rem;
   padding-left: 25px;
@@ -903,7 +873,6 @@ float: left;
   font-size: 1rem;
   font-weight: bold;
   padding-right: 25px;
-  /* float: left; */
 }
 .display-type {
   display: block;
