@@ -561,6 +561,7 @@ nav li p {
   font-size: 0.95rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.425);
+  line-height: 21px;
 }
 form {
   margin-top: 20px;
@@ -663,7 +664,7 @@ button {
   border-radius: 10px;
   margin-top: 10px;
   box-shadow: 0px 0px 1px 1px #1f1f1f5e;;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: bold;
   position: relative;
   cursor: pointer;
