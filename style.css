@@ -558,7 +558,7 @@ nav li p {
   font-size: 1rem;
 } 
 .please {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.425);
   line-height: 21px;
@@ -677,12 +677,14 @@ button {
 }
 .amount {
   color: rgba(0, 0, 0, 0.425);
-  font-size: 13px;
+  margin-top: 3px;
+  font-size: 10px;
   font-weight: 600;
 }
 .free {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
+  margin-top: 3px;
 }
 
 .duration {
